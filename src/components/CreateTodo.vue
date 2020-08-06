@@ -2,7 +2,7 @@
     <div>
         <input type="text" v-model="todoTitle" placeholder="Add Todo..." >
         <input type="text" v-model="todoDescription" placeholder="Add description..." >
-        <button data-v-c2258edc="" class="btn waves-effect waves-light" style="float: left;">Submit</button>
+        <button data-v-c2258edc="" class="btn waves-effect waves-light" style="float: left;" @click="sendData()">Submit</button>
     </div>
 </template>
 
